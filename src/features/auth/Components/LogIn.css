@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    font-family:'Poppins'
+}
+.mainBox{
+    width: 85%;
+    height: 80%; 
+    background-color: #fff;
+}
+
+.logMain{
+    display: flex;
+    justify-content: center;  
+}
+
+.signMain{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.content{
+    width: 50%;
+    height: 100%;
+}
+
+.leftHalf{
+    background-color: red;
+}
+
+.rightHalf{
+    background-color: #fff;
+    
+}
+
+.leftHalf img{
+    height: 100%;
+    width: 100%;
+}
+
+.rightHalf form{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.rightHalf form h4{
+    position: relative;
+    left: 0px;
+    color: #5c0a5c;
+    font-size: 12px;
+}
+
+input{
+    border: 2px solid purple;
+}
+form input{
+    width: 100%;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+/* .rightHalf button{
+    background-color: purple;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+} */
+
+.logSignButton{
+    background-color: purple;
+    color: #fff;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.S{
+    width: fit-content;
+    padding: 1% 3%;
+}
+
+.logSignButton:hover{
+    background-color: rgb(160, 82, 160);
+    color: #fff;
+}
+
+.rightHalf h2{
+    font-size: 23px;
+    color: #5c0a5c;
+    font-weight: 500;
+}
+
+.data{
+    margin: 20% 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.rightHalf span{
+    color: #5c0a5c;
+    font-size: 15px;
+}
+
+.SignInForm{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, 25%);
+    width: 100%;
+    height: 80%;
+
+}
+
+.SignInForm input{
+    width: 80%;
+    height: 40%;
+}
+
+
+.labelInput{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 7%;
+    gap: 12%;
+    padding-top: 3%;
+}
+
+
+.labelInput label{
+    display: block;
+    text-align: left;
+}
+
+header{
+    height: 14%;
+    width: 85%;
+    background-color: purple;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header h1{
+    font-size: 30px;
+}
+
+
+.radioGroup {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+
+
+.radioGroup label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.radioGroup input[type="radio"] {
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+

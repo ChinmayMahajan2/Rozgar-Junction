@@ -1,8 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import peopleReducer from '../features/people/peopleSlice'
+import findJobReducer from '../features/findJob/findJobSlice'
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    people: peopleReducer,
+    findJob: findJobReducer
   },
 });
